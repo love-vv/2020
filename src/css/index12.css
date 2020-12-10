@@ -1,0 +1,47 @@
+.prompt ,.prompt li{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font-family:'Microsoft YaHei';
+}
+.prompt{
+	margin-left:10px;
+}
+.prompt li{
+	display:none;
+}
+.prompt li i{
+	float:left;
+	width:16px;
+	line-height:0px;
+	height:16px;
+	margin-top:10px;
+}
+.prompt li span{
+	float:left;
+	margin-left:8px;
+	display:inline;
+	line-height:36px;
+}
+.prompt-show{margin-top:5px; height:24px; border:1px solid #fde9bd; padding:0px 5px; background:#fffdf0; line-height:24px; color:#e6133c; font-size:12px;font-family:'Microsoft YaHei'; display:none;}
+.prompt-show i{
+	float:left;
+	margin-top:4px;
+}
+.prompt-show span{
+	margin-left:8px;
+}
+
+.promptmin li i{
+	float:left;
+	width:16px;
+	line-height:0px;
+	height:16px;
+	margin-top:5px;
+}
+.promptmin li span{
+	float:left;
+	margin-left:8px;
+	display:inline;
+	line-height:26px;
+}

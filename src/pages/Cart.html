@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/indexx.css">
+    <link rel="stylesheet" type="text/css" href="../css/index8.css">
+    <link rel="stylesheet" type="text/css" href="../css/index3.css">
+    <link rel="stylesheet" type="text/css" href="../css/index4.css">
+    <link rel="stylesheet" type="text/css" href="../css/index5.css">
+    <link rel="stylesheet" type="text/css" href="../css/index9.css">
+    <link rel="stylesheet" type="text/css" href="../css/index6.css" />
+    <link rel="stylesheet" href="../css/index7.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/order.css">
+    <script src="https://www.jq22.com/jquery/vue.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="tools">
+        <div class="wrap">
+            <div class="bl-name" title="百联集团旗下全渠道电商平台">
+                <div class="txt">百联集团旗下全渠道电商平台</div><b></b>
+            </div>
+            <div class="tools-left">
+                <div class="tools-leftfont"><a href="#"><span>网站导航</span><i></i></a></div>
+                <span class="left-span"></span>
+                <div class="divshow left-show">
+                    <div class="left-show-dl">
+                        <dl>
+                            <dd><a href="#">百联集团官网</a></dd>
+                            <dd><a href="#">安付宝网</a></dd>
+                            <dd><a href="#">第一医药</a></dd>
+                            <dd><a href="#">OK会员卡专区</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="tools-info">
+                <s style="display:none"> •</s>
+                <a href="#" class="red-font">消息</a>
+            </div>
+            <div class="tools-right">
+                <ul>
+                    <li id="user_not_login" class="box">
+                        <div>
+                            <a href="../pages/login.html" class="login-button"><i></i><span>请登录</span></a>
+                            <a id="headerReg" href="../pages/register.html" class="registered">注册</a>
+                        </div>
+                        <b></b>
+                    </li>
+                    <li style="display: none" class="box-tols" id="user_login_in">
+                        <a href="#">
+                            <i>Hi，</i>
+                            <span id="member_name"></span>
+                        </a>
+                        <a href="#">退出</a>
+                        <b></b>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href="#">我的订单</a></div><b></b>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href="#"><span>我的百联</span><i></i></a></div>
+                        <span class="left-span"></span>
+                        <b></b>
+                        <div class="divshow hdiv">
+                            <dl>
+                                <dd><a href="#">我的订单</a></dd>
+                                <dd><a href="#">我的评价</a></dd>
+                                <dd><a href="#">我的积分</a></dd>
+                                <dd><a href="#">我的收藏</a></dd>
+                                <dd><a href="#">我的优惠券</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href="#"><span>充值缴费</span><i></i></a></div>
+                        <span class="left-span"></span>
+                        <b></b>
+                        <div class="divshow pay">
+                            <dl class="pay-dl">
+                                <dd>
+                                    <div class="pay-title">水电煤缴费</div>
+                                    <div class="pay-head">
+                                        <a onclick="clickButton('缴费首页',null,null,'首页top','PC_Fees',null);"
+                                            href="#">缴费首页</a>
+                                        <a onclick="clickButton('水费缴费',null,null,'首页top','PC_Fees',null);"
+                                            href="#/syf/pubfeepage.html?type=sf">水费缴费</a>
+                                        <a onclick="clickButton('电费缴费',null,null,'首页top','PC_Fees',null);"
+                                            href="#/syf/pubfeepage.html?type=dl">电费缴费</a>
+                                        <a onclick="clickButton('燃气缴费',null,null,'首页top','PC_Fees',null);"
+                                            href="#/syf/pubfeepage.html?type=mq">燃气缴费</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="pay-title">手机充值</div>
+                                    <div class="pay-head">
+                                        <a onclick="clickButton('手机充值',null,null,'首页top','PC_Fees',null);"
+                                            href="#">手机充值</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="pay-title">其他缴费</div>
+                                    <div class="pay-head">
+                                        <a onclick="clickButton('固话/宽带充值',null,null,'首页top','PC_Fees',null);"
+                                            href="#">固话/宽带充值</a>
+                                        <a onclick="clickButton('铁通缴费',null,null,'首页top','PC_Fees',null);"
+                                            href="#">铁通缴费</a>
+                                        <a onclick="clickButton('有线电视缴费',null,null,'首页top','PC_Fees',null);"
+                                            href="#">有线电视缴费</a>
+                                    </div>
+                                </dd>
+                                <dd>
+                                    <div class="pay-title">游戏点卡</div>
+                                    <div class="pay-head">
+                                        <a onclick="clickButton('腾讯Q币充值',null,null,'首页top','PC_Fees',null);"
+                                            href="#">腾讯Q币充值</a>
+                                        <a onclick="clickButton('盛趣点券充值',null,null,'首页top','PC_Fees',null);"
+                                            href="#">盛趣点券充值</a>
+                                        <a onclick="clickButton('更多游戏',null,null,'首页top','PC_Fees',null);"
+                                            href="#">更多游戏</a>
+                                    </div>
+                                </dd>
+
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href="javascript:void(0);"><span>客户服务</span><i></i></a></div>
+                        <span class="left-span"></span>
+                        <b></b>
+                        <div class="divshow hdiv">
+                            <dl>
+                                <dd><a href="javascript:void(0);" class="c_ntkf">在线客服</a></dd>
+                                <dd><a href="#">帮助中心</a></dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href="javascript:void(0);"><span>掌上百联</span><i></i></a></div>
+                        <span class="left-span"></span>
+                        <b></b>
+                        <div class="divshow palm">
+
+
+                            <div class="palm-item">
+                                <span class="palm-item-img"><img
+                                        src="https://img23.iblimg.com/market-2/images/activity/1807592795.jpg"
+                                        width="100" height="100"></span>
+                                <div class="palm-item-line">
+                                    <apan class="palm-item-title">i百联微信</apan>
+                                </div>
+                                <div class="palm-item-line">
+                                    <apan class="palm-item-message">扫一扫关注</apan>
+                                </div>
+                            </div>
+                            <div class="palm-item">
+                                <span class="palm-item-img"><img
+                                        src="https://img22.iblimg.com/market-2/images/activity/1849148942.png"
+                                        width="100" height="100"></span>
+                                <div class="palm-item-line">
+                                    <apan class="palm-item-title">i百联APP</apan>
+                                </div>
+                                <div class="palm-item-line">
+                                    <apan class="palm-item-message">手机购物更方便</apan>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tools-leftfont"><a href="#"><span>购物车</span></a>
+                        </div>
+                        <b></b>
+                    </li>
+                </ul>
+                <div id="btn_udesk_kf"></div>
+            </div>
+        </div>
+    </div>
+    <!-- logo -->
+    <div id="search" class="header">
+        <div class="wrap">
+            <div class="header-font">
+                <div class="header-logo">
+                    <div class="logo"><a href="#"><img
+                                src="https://res11.iblimg.com/respc-1/resources/v4.0/css/i/header-logo.png"></a></div>
+                    <div class="secondary-logo"><a href="#" data_wa_type="ad" data_wa_val="393_-_2779157_-_1"><img
+                                src="https://img23.iblimg.com/market-13/images/activity/1756329470.jpg" width="150"></a>
+                    </div>
+                </div>
+                <div class="header-search">
+                    <div class="header-search-top">
+                        <div class="header-search-input">
+                            <div class="indiv"><input type="text" id="first_header_search_input" class="gray"
+                                    value="科颜氏"></div>
+                            <div class="header-input-show">
+                                <div class="header-input-title">
+                                    <div class="header-input-title-fl">历史搜索</div>
+                                    <a" href="javascript:;" class="header-input-title-fr">
+                                        <i></i>
+                                        <span>清除</span>
+                                        </a>
+                                </div>
+                                <dl></dl>
+                            </div>
+                            <div class="header-input-show1">
+                                <div class="inpshow">
+                                    <dl>
+
+                                    </dl>
+                                </div>
+                                <div class="intshow-dl">
+                                    <dl>
+
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-search-button"><button type="button" class="header-search-button">搜索</button>
+                        </div>
+                    </div>
+                    <div class="header-search-font"><a href="#" data_wa_type="ad"
+                            data_wa_val="P668824_-_%u96C5%u8BD7%u5170%u9EDB_-_5">雅诗兰黛</a><span>|</span><a href="#"
+                            data_wa_type="ad" data_wa_val="P668824_-_%u6599%u9152_-_5">料酒</a><span>|</span><a href="#"
+                            data_wa_type="ad" data_wa_val="P668824_-_%u77FF%u6CC9%u6C34_-_5">矿泉水</a><span>|</span><a
+                            href="#" data_wa_type="ad"
+                            data_wa_val="P668824_-_%u519C%u592B%u5C71%u6CC9_-_5">农夫山泉</a><span>|</span><a href="#"
+                            data_wa_type="ad" data_wa_val="P668824_-_%u6D77%u4E30_-_5">海丰</a><span>|</span><a href="#"
+                            data_wa_type="ad" data_wa_val="P668824_-_%u8305%u53F0_-_5">茅台</a><span>|</span><a href="#"
+                            data_wa_type="ad" data_wa_val="P668824_-_%u536B%u751F%u7EB8_-_5">卫生纸</a><span>|</span><a
+                            href="#" data_wa_type="ad"
+                            data_wa_val="P668824_-_%u517B%u4E50%u591A_-_5">养乐多</a><span>|</span><a href="#"
+                            data_wa_type="ad" data_wa_val="P668824_-_%u624B%u673A_-_5">手机</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Cart -->
+    <div class="page-shopping-cart" id="shopping-cart">
+        <h4 class="cart-title">购物清单</h4>
+        <div class="cart-product clearfix">
+            <table>
+                <thead>
+                    <tr class="cart-product-title">
+                        <th class="td-check">
+                            <input type="checkbox" class="check-span fl check-all" :class="{'check-true':isSelectAll}"
+                                @click="selectProduct(isSelectAll)" :checked="isSelectAll" id="checkAll"></input>全选</th>
+                        <th class="td-product">商品</th>
+                        <th class="td-num">数量</th>
+                        <th class="td-price">单价(元)</th>
+                        <th class="td-total">金额(元)</th>
+                        <th class="td-do">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="(item,index) in productList" :key="index">
+                        <td class="td-check"><input type="checkbox" class="check-span" @click="item.select=!item.select"
+                                :class="{'check-true':item.select}" :checked="item.select"></input></td>
+                        <td class="td-product"><img :src="item.pro_img" width="98" height="98">
+                            <div class="product-info">
+                                <h3>{{item.pro_name}}</h3>
+                                <p>品牌：{{item.pro_brand}}&nbsp;&nbsp;产地：{{item.pro_place}}</p>
+                                <p>规格/纯度:{{item.pro_purity}}&nbsp;&nbsp;起定量：{{item.pro_min}}</p>
+                                <p>配送仓储：{{item.pro_depot}}</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </td>
+                        <td class="td-num">
+                            <div class="product-num">
+                                <a href="javascript:;" class="num-reduce num-do fl"
+                                    @click="minus(index)"><span></span></a>
+                                <input type="text" class="num-input" v-model="item.pro_num"
+                                    @input="search($event,index)" @blur="check($event,index)">
+                                <a href="javascript:;" class="num-add num-do fr" @click="add(index)"><span></span></a>
+                            </div>
+                        </td>
+                        <td class="td-price">
+                            <p class="red-text">￥<span class="price-text">{{item.pro_price.toFixed(2)}}</span></p>
+                        </td>
+                        <td class="td-total">
+                            <p class="red-text">￥<span
+                                    class="total-text">{{(item.pro_price*item.pro_num).toFixed(2)}}</span></p>
+                        </td>
+                        <td class="td-do"><a href="javascript:;" class="product-delect"
+                                @click="deleteOneProduct(index)">删除</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="cart-product-info">
+            <a class="delect-product" href="javascript:;" @click="deleteProduct">删除所选商品</a>
+            <a class="keep-shopping" href="#">继续购物</a>
+            <a class="btn-buy fr" href="javascript:;">去结算</a>
+            <p class="fr product-total">￥<span>{{getTotal.totalPrice}}</span></p>
+            <p class="fr check-num"><span>{{getTotal.totalNum}}</span>件商品总计（不含运费）：</p>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div id="footer" class="footer">
+            <div class="helpnav clearfix">
+                <div class="wrap">
+                    <div class="footer-center">
+                        <div class="helpnav-list">
+                            <div class="helpnav-title">
+                                <i class="footic1"></i>
+                                新手入门
+                            </div>
+                            <ul>
+                                <li><a href="#">购物流程</a></li>
+                                <li><a href="#">会员介绍</a></li>
+                                <li><a href="#">常见问题</a></li>
+                                <li><a href="#">发票说明</a></li>
+                                <li><a href="#">联系客服</a></li>
+                            </ul>
+                        </div>
+                        <div class="helpnav-list">
+                            <div class="helpnav-title">
+                                <i class="footic2"></i>
+                                配送服务
+                            </div>
+                            <ul>
+                                <li><a href="#">配送范围及运费</a></li>
+                                <li><a href="#">配送进度查询</a></li>
+                                <li><a href="#">自提服务</a></li>
+                                <li><a href="#">商品验货与签收</a></li>
+                            </ul>
+                        </div>
+                        <div class="helpnav-list">
+                            <div class="helpnav-title">
+                                <i class="footic3"></i>
+                                支付方式
+                            </div>
+                            <ul>
+                                <li><a href="#">货到付款</a></li>
+                                <li><a href="#">在线支付</a></li>
+                            </ul>
+                        </div>
+                        <div class="helpnav-list">
+                            <div class="helpnav-title">
+                                <i class="footic4"></i>
+                                售后服务
+                            </div>
+                            <ul>
+                                <li><a href="#">退换货政策</a></li>
+                                <li><a href="#">退换货流程</a></li>
+                                <li><a href="#">退款说明</a></li>
+                            </ul>
+                        </div>
+                        <div class="helpnav-list">
+                            <div class="helpnav-title">
+                                <i class="footic5"></i>
+                                商家支持
+                            </div>
+                            <ul>
+                                <li><a href="#">商家入驻</a></li>
+                                <li><a href="#">商家规则</a></li>
+                                <li><a href="#">商家常见问题</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="public-ad">
+                <div class="footer-center">
+                    <ul class="public-adlist">
+                        <li>
+                            <a data_wa_type="ad" data_wa_val="2020666_-_2464725_-_1" href="#"><img
+                                    src="https://img22.iblimg.com/market-11/images/activity/405550166.jpg"></a>
+                        </li>
+                        <li>
+                            <a data_wa_type="ad" data_wa_val="2020666_-_2464726_-_1" href="#"><img
+                                    src="https://img23.iblimg.com/market-11/images/activity/1024566593.jpg"></a>
+                        </li>
+                        <li>
+                            <a data_wa_type="ad" data_wa_val="2020666_-_2464727_-_1" href="#"><img
+                                    src="https://img22.iblimg.com/market-11/images/activity/1909673527.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div>
+                    <a href="#">关于我们</a>
+                    <span>|</span>
+                    <a href="#">联系我们</a>
+                    <span>|</span>
+                    <a href="#">加盟合作</a>
+                    <span>|</span>
+                    <a href="#">诚征英才</a>
+                    <span>|</span>
+                    <a href="#">友情链接</a>
+                    <span>|</span>
+                    <a href="#">新零售合作</a>
+                </div>
+                <div class="copyright">百联集团有限公司版权所有 <span>|</span> 客服电话：400-900-8800 <span>|</span> <a
+                        href="#">沪ICP备15028847号-1</a></div>
+                <a href="#" class="drug-message">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a><br>
+                <a href="#" class="drug-message">医疗器械网络交易服务第三方平台备案凭证-（沪）网械平台备字[2020]第00002号</a><br>
+                <a href="#" class="drug-message">全渠道增值电信业务经营许可证</a>
+                <div class="police">
+                    <a class="gongan" href="#">
+                        <img src="https://res15.iblimg.com/respc-1/resources/v4.0/css/i/gongan.png">
+                        <span>沪公网安备 31010102002366号</span>
+                    </a>
+                    <a class="gongs" href="#">
+                        <img src="https://res12.iblimg.com/respc-1/resources/v4.1/widget/footer1200/i/gongs.png"
+                            width="20" height="21">
+                        <span>上海工商</span>
+                    </a>
+                    <a class="zhizhao" href="#">
+                        <img src="https://res13.iblimg.com/respc-1/resources/v4.1/widget/footer1200/i/zhizhao.png">
+                        <span>经营执照</span>
+                    </a>
+                    <a class="wangping" href="#">
+                        <img src="https://res14.iblimg.com/respc-1/resources/v4.1/widget/footer1200/i/wangjing1.png"
+                            width="21">
+                        <span>网购大家评</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- js -->
+<script>
+    new Vue({
+        el: '#shopping-cart',
+        data: {
+            productList: [
+                {
+                    'pro_name': '产品名称2',//产品名称
+                    'pro_brand': 'skc',//品牌名称
+                    'pro_place': '韩国',//产地
+                    'pro_purity': '99.7%',//规格
+                    'pro_min': "215千克",//最小起订量
+                    'pro_depot': '上海仓海仓储',//所在仓库
+                    'pro_num': 3,//数量
+                    'pro_img': '../img/test1.jpg',//图片链接
+                    'pro_price': 800//单价
+                },
+                {
+                    'pro_name': '产品名称2',//产品名称
+                    'pro_brand': 'skc',//品牌名称
+                    'pro_place': '韩国',//产地
+                    'pro_purity': '99.7%',//规格
+                    'pro_min': "215千克",//最小起订量
+                    'pro_depot': '上海仓海仓储',//所在仓库
+                    'pro_num': 1,//数量
+                    'pro_img': '../img/test2.jpg',//图片链接
+                    'pro_price': 800//单价
+                }
+            ]
+        },
+        computed: {
+            isSelectAll: function () {
+                //如果productList中每一条数据的select都为true，返回true，否则返回false;
+                return this.productList.every(function (val) { return val.select });
+            },
+            getTotal: function () {
+                //获取productList中select为true的数据。
+                var _proList = this.productList.filter(function (val) { return val.select }), totalPrice = 0;
+                for (var i = 0, len = _proList.length; i < len; i++) {
+                    //总价累加
+                    totalPrice += _proList[i].pro_num * _proList[i].pro_price;
+                }
+                //选择产品的件数就是_proList.length，总价就是totalPrice
+                return { totalNum: _proList.length, totalPrice: totalPrice }
+            }
+        },
+        methods: {
+            selectProduct: function (_isSelect) {
+                //遍历productList，全部取反
+                for (var i = 0, len = this.productList.length; i < len; i++) {
+                    this.productList[i].select = !_isSelect;
+                }
+            },//删除已经选中(select=true)的产品
+            deleteProduct: function () {
+                this.productList = this.productList.filter(function (item) { return !item.select })
+            },
+            //删除单条产品
+            deleteOneProduct: function (index) {
+                //根据索引删除productList的记录
+                this.productList.splice(index, 1);
+            },
+            search: function (event, index) {
+                let flag = new RegExp("^[1-9]([0-9])*$").test(event.target.value);
+                if (!flag) {
+                    this.productList[index].pro_num = '';
+                }
+            },
+            check: function (event, index) {
+                if (event.target.value == '') {
+                    this.productList[index].pro_num = 0;
+                }
+            },
+            //数量增加
+            add: function (index) {
+                this.productList[index].pro_num++;
+            },
+            //数量减少
+            minus: function (index) {
+                if (this.productList[index].pro_num > 0) {
+                    this.productList[index].pro_num--;
+                } else {
+                    this.productList[index].pro_num = 0;
+                }
+
+            }
+        },
+        mounted: function () {
+            //为productList添加select（是否选中）字段，初始值为true
+            var _this = this;
+            //为productList添加select（是否选中）字段，初始值为true
+            this.productList.map(function (item) {
+                _this.$set(item, 'select', true);
+            })
+        }
+    })
+</script>
+
+</html>

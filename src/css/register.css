@@ -1,0 +1,22 @@
+.center-top{
+    height: 30px;
+    border-bottom: 1px solid #e1dfda;
+    padding: 10px 20px;
+    line-height: 30px;
+    width: 900px;
+    margin: 0 auto;
+}
+.center-top .title-info {
+    float: left;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    color: #ff002a;
+}
+.center-top .title-login {
+    float: right;
+    font-family: 'Microsoft YaHei';
+    color: #63625d;
+}
+.center-top .title-login a {
+    color: #0088cc;
+}

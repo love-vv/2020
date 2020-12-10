@@ -1,0 +1,654 @@
+/* fileheader.css Date:2017-11-15 17:39:36 */
+.file-head {
+    min-width: 1190px;
+    background: #fff;
+    height: 70px;
+    box-shadow: 0 3px 3px #eee;
+    width: 100%;
+    position: fixed;
+    z-index: 1002;
+    display: block;
+    top: -76px;
+    transition: top .3s ease-out;
+  }
+  .top-header {
+    top: 0;
+  }
+  .file-head-logo {
+    float: left;
+    margin-top: 9px;
+    width: 380px;
+    img {
+      height: 49px;
+    }
+  }
+  .file-head-info {
+    float: right;
+    line-height: 70px;
+    font-family: 'Microsoft YaHei';
+    font-size: 15px;
+    span {
+      padding: 0 10px;
+      float: left;
+      font-size: 12px;
+    }
+    i {
+      float: left;
+      margin-right: 5px;
+    }
+    a {
+      &:hover {
+        color: #ff6f6f;
+      }
+    }
+  }
+  .file-head-info a:link,.file-head-info a:visited {
+    max-width: 91px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+  }
+  .header-search-1 {
+    float: left;
+    height: 35px;
+    margin-top: 17px;
+    position: relative;
+  }
+  .flienav {
+    width: 52px;
+    float: left;
+    margin-top: 11px;
+    margin-right: 25px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    .flieshownav {
+      top: 59px;
+      text-align: left;
+      left: 0;
+      padding: 0;
+    }
+    &:hover {
+      .flieshownav {
+        display: block;
+      }
+      .flienavicon {
+        background: #151515 url(//img.iblimg.com/respc-1/resources/v4.1/widget/fileheader/i/filenavicon-2.png) no-repeat center 7px;
+      }
+    }
+  }
+  .flienavtitle {
+    line-height: 20px;
+    line-height: 20px;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    color: #333;
+  }
+  .flienavicon {
+    width: 52px;
+    height: 39px;
+    line-height: 30px;
+    font-size: 20px;
+    background: #fff url(//img.iblimg.com/respc-1/resources/v4.1/widget/fileheader/i/filenavicon-1.png) no-repeat center 7px;
+    color: #bbb;
+  }
+  .nav-show {
+    background: #e6133c;
+    position: absolute;
+    left: 3px;
+    top: 30px;
+    width: 190px;
+    line-height: 30px;
+    display: none;
+    padding: 7px 0 7px 10px;
+  }
+  .black-nav-show {
+    &:hover {
+      .nav-show {
+        display: block;
+      }
+    }
+  }
+  .w960 {
+    .file-head-logo {
+      width: 160px;
+    }
+    .file-head {
+      min-width: 950px;
+    }
+  }
+  .header-search-top {
+    height: 35px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .header-search-input {
+    padding: 2px 0 2px 2px;
+    background: #ff3d3d;
+    float: left;
+    position: relative;
+    div {
+      &.indiv {
+        background: #fff;
+        height: 31px;
+        overflow: hidden;
+        padding: 0 10px;
+        vertical-align: middle;
+      }
+    }
+    input {
+      height: 19px;
+      line-height: 19px;
+      border: 0;
+      width: 406px;
+      font-size: 13px;
+      font-family: 'Microsoft YaHei';
+      background: 0 0;
+      vertical-align: middle;
+      padding: 6px 0;
+      &.gray {
+        color: #a9a9a9;
+      }
+    }
+  }
+  .header-search-button {
+    height: 35px;
+    width: 85px;
+    float: left;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    overflow: hidden;
+    button {
+      height: 35px;
+      width: 85px;
+      border: 0;
+      cursor: pointer;
+      background: #ff3d3d;
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      &:hover {
+        background-color: #ff3d3d;
+      }
+    }
+  }
+  .header-input-show {
+    width: 476px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    padding-bottom: 5px;
+    z-index: 2;
+    display: none;
+    dl {
+      dd {
+        height: 26px;
+        line-height: 26px;
+      }
+    }
+  }
+  .header-input-show1 {
+    width: 476px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    z-index: 2;
+    display: none;
+  }
+  .header-input-show2 {
+    width: 476px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    padding: 5px 0;
+    z-index: 2;
+    display: none;
+    dl {
+      dd {
+        height: 26px;
+        line-height: 26px;
+      }
+    }
+  }
+  .header-input-show2 dl dd a:link,.header-input-show2 dl dd a:visited {
+    display: block;
+    padding: 0 10px;
+    color: #333;
+  }
+  .header-input-show2 dl dd a:hover,.header-input-show2 dl dd.on a:link,.header-input-show2 dl dd.on a:visited {
+    background: #e6133c;
+    color: #fff;
+  }
+  .header-input-show dl dd a:link,.header-input-show dl dd a:visited {
+    display: block;
+    padding: 0 10px;
+    color: #333;
+  }
+  .header-input-show dl dd a:hover,.header-input-show dl dd.on a:link,.header-input-show dl dd.on a:visited {
+    background: #e6133c;
+    color: #fff;
+  }
+  .header-input-title {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+  }
+  .header-input-title-fl {
+    float: left;
+    color: #999;
+  }
+  a.header-input-title-fr:link,a.header-input-title-fr:visited {
+    float: right;
+    color: #666;
+  }
+  a {
+    &.header-input-title-fr {
+      i {
+        float: left;
+        width: 9px;
+        height: 10px;
+        background: url(//img.iblimg.com/respc-1/resources/v4.1/widget/fileheader/i/delete.png) no-repeat 0 0;
+        display: inline-block;
+        margin-top: 10px;
+      }
+      span {
+        float: left;
+        margin-left: 7px;
+      }
+      &:hover {
+        color: #08c;
+        i {
+          background-position: 0 -10px;
+        }
+      }
+    }
+  }
+  .inpshow {
+    line-height: 20px;
+    padding: 5px 0;
+    color: #333;
+    dd {
+      a {
+        strong {
+          color: #e6133c;
+        }
+      }
+    }
+  }
+  .inpshow dd a:link,.inpshow dd a:visited {
+    display: block;
+    padding: 0 10px;
+    height: 26px;
+    color: #333;
+    line-height: 26px;
+  }
+  .inpshow dd a:hover,.inpshow dd.on a:link,.inpshow dd.on a:visited {
+    color: #fff;
+    background: #e6133c;
+  }
+  .inpshow dd a:hover strong,.inpshow dd.on a strong {
+    color: #fff;
+  }
+  .intshow-dl {
+    padding: 5px 0;
+    border-top: 1px solid #ccc;
+    line-height: 26px;
+    dd {
+      height: 26px;
+      a {
+        &:hover {
+          background: #e6133c;
+          color: #fff;
+          i {
+            color: #fff;
+          }
+        }
+      }
+      span {
+        float: left;
+        display: inline-block;
+      }
+      i {
+        float: right;
+        display: inline-block;
+      }
+    }
+  }
+  .intshow-dl dd a:link,.intshow-dl dd a:visited {
+    display: block;
+    padding: 0 10px;
+    color: #333;
+    height: 26px;
+  }
+  .intshow-dl dd.on a:link,.intshow-dl dd.on visited {
+    background: #e6133c;
+    color: #fff;
+  }
+  .intshow-dl dd.on a:link i,.intshow-dl dd.on visited i {
+    color: #fff;
+  }
+  .intshow-dl dd a:link i,.intshow-dl dd a:visited i {
+    color: #999;
+  }
+  .fl-w215 {
+    float: left;
+    width: 215px;
+    height: 35px;
+    a {
+      &:hover {
+        color: #e6133c;
+        background: #fff url(//img.iblimg.com/respc-1/resources/v4.1/widget/fileheader/i/header-right-icon.png) no-repeat right;
+      }
+    }
+  }
+  .fl {
+    float: left;
+  }
+  .fr {
+    float: right;
+  }
+  .fl-w215 a:link,.fl-w215 a:visited {
+    height: 33px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #e2e2e2;
+    display: inline-block;
+    margin-left: 2px;
+    color: #555;
+    overflow: hidden;
+    padding: 0 19px 0 12px;
+    float: left;
+    background: #f2f2f2 url(//img.iblimg.com/respc-1/resources/v4.1/widget/fileheader/i/header-right-icon.png) no-repeat right;
+    line-height: 33px;
+    font-family: 'Microsoft YaHei';
+  }
+  .hshow {
+    position: absolute;
+    left: 50%;
+    margin-left: -595px;
+    top: 0;
+  }
+  .banner-itemleft {
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+    height: 407px;
+    width: 180px;
+    text-align: left;
+    color: #fff;
+    padding: 9px 0 9px 10px;
+    line-height: 30px;
+    box-shadow: -2px 0 2px rgba(0,0,0,.2);
+    -moz-box-shadow: -2px 0 2px rgba(0,0,0,.2);
+    -webkit-box-shadow: -2px 0 2px rgba(0,0,0,.2);
+    ul {
+      font-size: 0;
+    }
+    li {
+      height: 30px;
+      padding-left: 6px;
+      cursor: pointer;
+      color: #fff;
+      font-family: 'Microsoft YaHei';
+      i {
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin-top: 7px;
+        display: inline-block;
+        line-height: 16px;
+        font-size: 16px;
+        background: url(//img.iblimg.com/respc-1/resources/v4.1/widget/fileheader/i/nav-v3-icon-1.png) no-repeat;
+        &.jinkou {
+          background-position: 0 0;
+        }
+        &.shengxian {
+          background-position: 0 -30px;
+        }
+        &.shipin {
+          background-position: 0 -60px;
+        }
+        &.huli {
+          background-position: 0 -90px;
+        }
+        &.muying {
+          background-position: 0 -120px;
+        }
+        &.jiaju {
+          background-position: 0 -150px;
+        }
+        &.lengdong {
+          background-position: 0 -180px;
+        }
+        &.fuzhuang {
+          background-position: 0 -210px;
+        }
+        &.xiangbao {
+          background-position: 0 -240px;
+        }
+        &.sanc {
+          background-position: 0 -270px;
+        }
+        &.jiadian {
+          background-position: 0 -300px;
+        }
+        &.qiche {
+          background-position: 0 -330px;
+        }
+        &.yiliao {
+          background-position: 0 -360px;
+        }
+        &.cardbook {
+          background-position: 0 -390px;
+        }
+      }
+      span {
+        float: left;
+        margin-left: 10px;
+        display: inline-block;
+        font-size: 13px;
+      }
+      &.on {
+        background: #888;
+        position: relative;
+        z-index: 6;
+        span {
+          color: #fff;
+          a {
+            &:hover {
+              text-decoration: underline;
+              color: #fff;
+            }
+          }
+        }
+        i {
+          color: #e6133c;
+        }
+      }
+    }
+  }
+  .banner-itemleft li span a:link,.banner-itemleft li span a:visited {
+    color: #fff;
+    text-decoration: none;
+  }
+  .banner-itemleft li.on span a:link,.banner-itemleft li.on span a:visited {
+    color: #fff;
+  }
+  .left-ul-show {
+    position: absolute;
+    left: 190px;
+    top: 0;
+    min-height: 421px;
+    background: #f9f9f9;
+    box-shadow: 0 0 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0,.2);
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,.2);
+    display: none;
+    width: 775px;
+    border: 1px solid #e6133c;
+    border-left: 0;
+    z-index: 3;
+    li {
+      width: 775px;
+      height: 423px;
+      display: none;
+    }
+  }
+  .show-left {
+    float: left;
+    max-width: 526px;
+    padding: 5px;
+  }
+  .show-w233 {
+    float: left;
+    width: 245px;
+    margin: 0 15px 0 20px;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .show-title {
+    font-weight: 700;
+    color: #222;
+    line-height: 38px;
+    min-height: 38px;
+    span {
+      background: #f9f9f9;
+      padding-right: 5px;
+    }
+    a {
+      &:hover {
+        color: #e6133c;
+        text-decoration: underline;
+      }
+    }
+  }
+  .nav-show ul li .show-title a:link,.nav-show ul li .show-title a:visited,.show-title a:link,.show-title a:visited {
+    color: #222;
+    text-decoration: none;
+  }
+  .show-font {
+    line-height: 24px;
+    color: #666;
+    padding-bottom: 10px;
+    margin-left: -9px;
+    a {
+      &:hover {
+        color: #e6133c!important;
+        text-decoration: underline;
+      }
+    }
+    span {
+      margin: 0 3px;
+    }
+  }
+  .show-font a:link,.show-font a:visited {
+    float: left;
+    padding: 0 8px;
+    margin: 4px 0;
+    line-height: 14px;
+    height: 14px;
+    border-left: 1px solid #ddd;
+    white-space: nowrap;
+    color: #666;
+  }
+  .show-left-bottom {
+    width: 496px;
+    height: 92px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .show-right {
+    float: right;
+    padding: 5px 10px;
+    width: 170px;
+  }
+  .h200 {
+    margin-top: 5px;
+    height: 200px;
+    overflow: hidden;
+    width: 170px;
+    img {
+      width: 170px;
+      height: 200px;
+    }
+  }
+  .show-left-1 {
+    float: left;
+    max-width: 280px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .gb-icon {
+    width: 31px;
+    height: 31px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(//img.iblimg.com/respc-1/resources/v4.1/widget/fileheader/i/gb-icon.png) no-repeat 0 0;
+    &:hover {
+      background-position: -31px 0;
+    }
+  }
+  .int-nav {
+    line-height: 28px;
+    ul {
+      li {
+        height: 29px;
+        line-height: 29px;
+        i {
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+  .menu_floor {
+    width: 710px;
+    margin: 10px 0 0 12px;
+    line-height: 23px;
+    position: relative;
+    overflow: hidden;
+    a {
+      margin-right: 18px;
+      color: #666;
+      display: inline-block;
+      &:hover {
+        color: #ff6f6f;
+        text-decoration: underline;
+      }
+    }
+    span {
+      font-weight: 700;
+      float: left;
+      margin-right: 23px;
+      a {
+        color: #333;
+        margin-right: 0;
+        &:hover {
+          color: #333;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .menu_floor_a {
+    width: 625px;
+    float: left;
+    line-height: 23px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #f3f3f3;
+  }
+  .menu_right_img {
+    width: 240px;
+    height: 422px;
+    float: right;
+    a {
+      margin-bottom: 9px;
+    }
+  }
+  

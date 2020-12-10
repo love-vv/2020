@@ -1,0 +1,540 @@
+/*main*/
+.main{
+	margin:0px auto;
+}
+/*head*/
+.saerch-passhead{height:100px; background:#FFF; min-width:950px; margin:0px auto;}
+.saerch-passhead-logo{float:left; margin-top:25px; display:inline;}
+.saerch-passhead-title{float:left; line-height:50px; margin-top:25px; margin-left:20px; display:inline; font-size:18px; color:#aaaaaa; font-family:'Microsoft YaHei';}
+.login-title{ height:45px; width:auto; border-left:1px solid #e2e0db; float:left; margin:28px 0 0 30px; padding-left:30px; line-height:45px; font-size:24px; font-family:'Microsoft YaHei'; font-weight:normal;}
+
+/* .saerch-passhead,.login-body{ background:#f9f9f8 !important;} */
+.main-center{ width:100%; height:auto; background:#fff; border:1px solid #e1dfda;}
+.center-top{ height:30px; border-bottom:1px solid #e1dfda; padding:10px 20px; line-height:30px;}
+.center-top .title-info{ float:left; font-size:16px; font-family:'Microsoft YaHei'; color:#ff002a;}
+.center-top .title-login{ float:right; font-family:'Microsoft YaHei'; color:#63625d;}
+.center-top .title-login a{ color:#0088cc;}
+
+.title .left{ width:80px; height:80px; background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/V3.5login.png) no-repeat; float:left;}
+.title .right{ float:left; padding:20px 0 0 20px;}
+h3{ padding-bottom:10px; font-size:16px; font-family:"Microsoft YaHei"; color:#040403; font-weight:normal;}
+.title .right .info{ font-size:14px; font-family:"Microsoft YaHei"; color:#999590;}
+.center-bottom{ /*width:516px;*/ height:auto; padding:50px 0px 74px 191px;}
+.table-list{ width:410px; height:30px; margin:0 50px;border-bottom:2px solid #dddddd;}
+.table-list li{ float:left; width:205px; height:30px; text-align:center; cursor:pointer; }
+.table-list li.on p{border-bottom:2px solid #aa836d; color:#aa836d;}
+.table-list p{ font-size:16px; font-family:"Microsoft YaHei"; color:#d1cec8; height:30px;}
+.registered .account-info{ width:476px; text-align:center; display:inline-block; padding:30px 0 36px 18px; font-size:14px; font-family:"Microsoft YaHei"; color:#999590;}
+.loginPerfect-data{
+	padding:10px 0px;
+}
+.loginPerfect-data .name{
+	float:left;
+	font-size:15px;
+	font-family:'Microsoft YaHei';
+	color:#333333;
+	float:left;
+	width:136px;
+	text-align:right;
+	line-height:36px;
+}
+.loginPerfect-data .name i{
+	color:#df3d36;
+}
+.loginPerfect-data .loginPerfect-input{
+position:relative;
+
+}
+.loginPerfect-data .loginPerfect-input input{
+	line-height:34px;
+	font-size:16px;
+	vertical-align:middle;
+	padding:0 10px 0 30px;
+	text-indent:0px;
+	font-size:12px;
+	font-family:'Microsoft YaHei';
+	color:#000;
+}
+.index-15{
+	width:258px;
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -251px;
+}
+.index-15:hover{
+	width:258px;
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -251px;
+}
+.index-1{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px 9px;
+}
+.index-1:hover{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px 9px;
+}
+.index-2{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -180px;
+}
+.index-2:hover{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -180px;
+}
+.index-4{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -52px;
+}
+.index-4:hover{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -52px;
+}
+.index-3{
+	width:158px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -51px;
+}
+.index-3:hover{
+	width:158px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -51px;
+}
+.index-5{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -287px;
+}
+.index-5:hover{
+	width:258px;
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 10px -287px;
+}
+.clr{
+	clear:both;
+}
+.loginPerfect-input i{display:none; background: url('//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png') no-repeat -8px -354px;width: 16px;height: 16px;position: absolute;top: 10px;left: 274px;}
+.loginPerfect-input i.short{left: 176px}
+.loginPerfect-input i.error{background: url('//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png') no-repeat -8px -407px;}
+.prompt-error i.error{background: url('//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png') no-repeat -8px -407px;}
+.loginPerfect-input span{
+	color:#a0a0a0;
+	position:absolute;
+	top:0px;
+	left:36px;
+	line-height:36px;
+	font-family:'Microsoft YaHei';
+}
+.loginPerfect-input-div{	
+	float:left;
+	padding-left:5px;
+	display:inline;
+}
+.loginPerfect-input-error{
+	border:1px solid #ffba22;
+	padding-left:30px;
+	display:none;
+	line-height:28px;
+	background:#fffdeb url(//img.iblimg.com/respc-1/resources/v3.0/css/i/loginPerfect-prompt.png) no-repeat 5px center;
+	position: absolute;
+	z-index: 99;
+	top:35px;
+	width: 268px;
+}
+.loginPerfect-remember{
+	height:55px;
+	padding-left:140px;
+	line-height:18px;
+	overflow:hidden;
+	padding-top:5px;
+	color:#666666;
+	background:#fff;
+}
+.loginPerfect-remember label{
+	float:left;
+	cursor:pointer;
+	outline:none;
+	padding-right:10px;
+}
+.loginPerfect-remember label i{display: inline-block;width: 11px;height: 11px;float: left;border:1px solid #55779b;margin-top: 2px}
+.loginPerfect-remember label i.clicked{background: url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png) no-repeat 0 -473px;border:none;width: 13px;height: 13px;}
+
+.loginPerfect-remember label span{
+	float:left;
+	margin-left:24px;
+	display:inline;
+	font-family:'Microsoft YaHei';
+}
+.loginPerfect-remember label span a{ color:#0088d1 !important;}
+.loginPerfect-remember label span a:hover{ text-decoration:underline;}
+.loginPerfect-remember a:link,.loginPerfect-remember a:visited{
+	float:left;
+	/*margin-left:105px;*/
+	display:inline;
+	color:#666666;
+}
+.loginPerfect-remember a:hover{
+	color:#0077d7;
+}
+.registered .register-button {
+	padding-left:134px;
+	height:36px;
+	overflow:hidden;
+}
+.loginPerfect-remember label span A{
+	margin-left:0px !important;
+	float:none !important;
+	display:inline-block;
+}
+.loginPerfect-remember a{ color:#0088ca !important;}
+.loginPerfect-remember a:hover{ text-decoration:underline;}
+.loginPerfect-data .loginPerfect-input input.input-border{
+	border:1px solid #6ab7ea;
+	box-shadow:0px 0px 2px #6ab7ea;
+}
+.loginPerfect-data .loginPerfect-input input.input-red-border{  border: 1px solid #ff4b2a;
+    box-shadow: 0 0 3px #ff927e;}
+
+.input-prompt{
+	float:left;
+	line-height:36px;
+	margin-left:10px;
+	padding-left:10px;
+	margin-left:0px;
+	color:#999999;
+}
+
+.input-prompt span{ float:left; margin-right:7px;}
+.input-prompt div{
+float: left;
+width: 24px;
+height: 16px;
+background: #cccccc;
+margin: 9px 1px 0;
+line-height: 16px;
+color: #fff;text-align: center;}
+.input-prompt div.current{background: #ffa200}
+.input-prompt button{width: 90px;height: 36px;border:1px solid #c8c8c8;background: #f5f5f5;cursor: pointer;}
+.input-prompt button.send{background: #eeeeee;color: #999999}
+.loginPerfect-title{
+	height:70px;
+	margin-left:35px;
+	padding-left:26px;
+}
+.loginPerfect-title i{display: inline-block;background: url('//img.iblimg.com/respc-1/resources/v3.0/css/i/register.png') no-repeat 0 -375px;width: 35px;height: 60px;float: left;}
+.loginPerfect-title span{
+	float: left;
+	color:#000;
+	font-size:18px;
+	font-family:'Microsoft YaHei';
+	margin-top: 41px;
+}
+.loginPerfect-title span.register-login{font-size: 12px;color: #666666;float: right;margin-top: 44px}
+.loginPerfect-title span.register-login a{color: #0088cc}
+.user-name{
+	float:left;
+	line-height:38px;
+	height:38px;
+	font-size:16px;
+}
+.register-bg{
+	background:#ffffff url(//img.iblimg.com/respc-1/resources/v3.0/css/i/rbg.png) no-repeat 680px 130px;
+}
+.register-code{
+	float:left;
+	width:90px;
+	height:36px;
+	margin:0 11px 0 10px;
+}
+.register-code img{ width:90px; height:36px;}
+.register-refresh{
+	float:left;
+	width:14px;
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/refresh.png) no-repeat center center;
+	height:14px;
+	margin-left:10px;
+	display:inline-block;
+	margin-top:10px;
+}
+
+/*registercomplete*/
+.register-complete{
+	padding:55px 100px;
+}
+.register-complete-icon{
+	float:left;
+	height:34px;
+	width:34px;
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/listicons.gif) no-repeat left -703px;
+}
+.register-complete-font{
+	padding-left:50px;
+}
+.register-complete-title{
+	line-height:28px;
+	height:28px;
+	color:#333333;
+	font-size:24px;
+	font-family:'Microsoft YaHei';
+}
+.register-complete-info{
+	line-height:38px;
+	height:38px;
+	font-size:14px;
+	font-family:'Microsoft YaHei';
+	color:#999999;
+}
+.register-complete-info span{
+	margin-right:30px;
+}
+.register-complete-info span i{
+	color:#333333;
+}
+.register-complete-button{
+	margin-top:15px;
+	height:36px;
+}
+.register-complete-button button{
+	float:left;
+	margin-right:10px;
+	display:inline;
+	height:36px;
+}
+.register-complete-button button.button-1{
+	width:180px;
+	border:none;
+	cursor:pointer;
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register-button-1.png) no-repeat left top;
+}
+.register-complete-button button.button-1:hover{
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register-button-1.png) no-repeat left bottom;
+}
+.register-complete-button button.button-2{
+	width:144px;
+	border:none;
+	cursor:pointer;
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register-button-2.png) no-repeat left top;
+}
+.register-complete-button button.button-2:hover{
+	background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/register-button-2.png) no-repeat left bottom;
+}
+
+/**/
+.show-bt1{
+	border: 1px solid #FFBA22;
+	clear:both;
+	float:left;
+	width:170px;
+}
+.mailBox{background:#fff;border:1px solid #ddd;/*padding:3px 5px 5px;*/position:absolute;z-index:9999;display:none;-webkit-box-shadow:0px 2px 7px rgba(0, 0, 0, 0.35);-moz-box-shadow:0px 2px 7px rgba(0, 0, 0, 0.35);}
+.mailBox p{width:100%;margin:6px 0 7px 10px;padding:0;/*height:20px;line-height:20px;*/clear:both;font-size:12px;color:#999;cursor:default;}
+.mailBox ul{padding:0;margin:0;font-family: Verdana}
+.mailBox li{font-size:12px;height:26px;line-height:26px;color:#333;font-family:'Tahoma';list-style:none;cursor:pointer;overflow:hidden;padding-left: 10px;}
+.mailBox .cmail{color:#333333;background:#f2f2f2;font-weight: 600}
+
+.login-right{ width:400px; margin-top:10px;}
+.fn-right{ margin:auto;}
+.user-login{ background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png) no-repeat;}
+.login-right h2{ padding:12px 0 2px 40px; font-size:18px; font-family:"Microsoft Yahei"; font-weight:normal; margin-bottom:10px; margin-left:10px;}
+.login-input-div{  display: inline;
+    float: left;
+    padding-left: 5px;
+    position: relative;
+	margin-top:-1px;
+	margin-bottom:20px;}
+.login-div02{ margin-bottom:10px;}
+.login-input{ float:left; border-top:0px;}
+.login-input i.input-icon-1{ background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png) no-repeat center -39px;    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 26px;}
+.login-input i.input-icon-2{ background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png) no-repeat center -91px;    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+    width: 26px;}
+
+.login-input input{
+    font-size: 14px;
+    padding: 0 10px 0 30px;
+	text-indent:0px;
+    vertical-align: middle;
+	font-family:"Microsoft Yahei";
+	color:#d1cec8;
+}
+*+html .login-input input{ border-top:1px solid #ccc;}
+.login-form-text-1{
+    width: 258px;
+}
+.login-form-text-2{
+    width: 258px;
+}
+.login-input span {
+    color: #a0a0a0;
+    display: none;
+	left:30px;
+	/*right:10px;*/
+    line-height: 38px;
+    position: absolute;
+    top: 0;
+}
+input.w168{ width:168px}
+.code-img {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+	margin-top:-2px;
+}
+.clr{ clear:both;}
+.login-code{ padding:11px 0 6px; display:inline-flex; width:350px; float:left;}
+.pass-inifimg{height:16px; width:16px; display:inline-block; float:left; background-repeat:no-repeat; background-position:center top; background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/prompt-bg.png) no-repeat; margin-top:10px; margin-left:154px; cursor:pointer; display:none;}
+.login-code i.code-icon-2{ background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png) no-repeat center -370px;    
+    height: 32px;
+    width: 26px;
+	position:absolute;
+	cursor:pointer;}
+.login-code i.code-icon-3{ background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png) no-repeat center -396px;    
+    height: 32px;
+    width: 26px;
+	position:absolute;
+	right:409px;}
+.login-password{
+	float:left;
+    color: #666666;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 6px;
+	width:300px;
+	margin-bottom:11px;
+	position:relative;}
+.login-password span a:hover{ color:#0088cc; text-decoration:underline;}
+.login-password span{ position:absolute; right:0;}
+.login-password label {
+    cursor: pointer;
+    float: left;
+    outline: medium none;
+	font-family:"Microsoft YaHei";
+}
+.login-password .free{ float:right; width:72px; height:24px; line-height:24px;}
+.login-prompt{ height:46px; line-height:46px; font-family:"Microsoft YaHei";}
+.login-prompt p{ display:inline-block; margin-left:6px;}
+.login-choose{ color:#666460; float:left;}
+.login-choose em{ padding:0 8px;}
+.login-account{ height:26px; margin-left:6px; display:inline-block; line-height:26px; font-family:"Microsoft YaHei";}
+.login-account p{ float:left; padding-right:10px;}
+.login-account ul{ float:left;}
+.login-account ul li{ float:left; padding-right:14px;}
+.group{ color:#9a9691; float:left;}
+
+.prompt-show {
+    background: #fffdee url("//img.iblimg.com/respc-1/resources/v3.0/css/i/v3Login-icon.png") no-repeat -4px -402px;
+    border-color: -moz-use-text-color #ffba22 #ffba22;
+    border-image: none;
+    clear: both;
+    display: none;
+    padding-left: 26px;
+	height:26px;
+	line-height:26px;
+	margin-left:5px;
+	width:268px;
+	border:1px solid #ffeab6;
+	position:absolute;
+	top:48px;
+	color:#ff0a44;
+	font-family:'Microsoft YaHei';
+}
+.registered{ position:relative;}
+*+html .prompt-show{ margin-left:-5px;}
+.pass-bk{
+	border:1px solid #6ab7ea;
+	box-shadow:0px 0px 3px #7fcbfe;
+	z-index:2;
+}
+.pass-bk input{
+	border-top:0px !important;
+}
+.pass-bk-1{
+	border:1px solid #ff4b2a;
+	box-shadow:0px 0px 3px #ff927e;
+	z-index:2;
+}
+.pass-border{
+	position:relative;
+}
+.btop{
+	background-position:center bottom;
+}
+.pass-z-index{
+	z-index:2;
+}
+.pass-show{clear:both; border:1px solid #ffba22; border-top:0px; background:#fffdeb url(//img.iblimg.com/respc-1/resources/v3.0/css/i/sr-img.jpg) no-repeat 5px center; padding-left:26px; width:274px; position:absolute; top:37px; line-height:28px; left:-1px; z-index:1;}
+.duilei1-show{font-size:30px; font-family:'Microsoft YaHei'; color:#000; background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/duilei1.jpg) no-repeat left; padding-left:75px; line-height:80px; height:80px;}
+.login-text-height{
+	display:none;
+	height:28px;
+}
+.ftx23{ float:left; height:36px; line-height:36px; color:#706e69; font-family:'Microsoft YaHei';}
+.ftx23 a{ color:#0084cc; text-decoration:underline;}
+.input-error{ float:right;}
+.content1 .center-bottom{ /*width:448px;*/ height:auto; padding:50px 120px 0;text-align:center;margin-left: 300px;}
+.content1 .registered-info{ /*width:100%;*/ height:56px; display:inline-block; padding-bottom:42px;}
+.content1 .Successful-icon{ width:57px; height:56px; background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/v3symbol.png) no-repeat; float:left;}
+.content1 .Successful-info{ float:left; line-height:56px; font-size:30px; font-family:'Microsoft YaHei'; color:#ff7200; padding-left:30px; font-weight:bold;}
+.content1 .info02{ font-size:16px; font-family:'Microsoft YaHei'; color:#9a9691; padding-bottom:10px;}
+.content1 .info03{ font-size:16px; font-family:'Microsoft YaHei'; color:#9a9691; padding-bottom:60px;}
+.btn .btn01{ background: #ff0028;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+    font-size: 16px;
+    font-weight: bold;
+    height: 36px;
+    letter-spacing: 4px;
+    width: 120px;
+	margin-right:14px;}
+.btn .btn02{ border:none; width:118px; height:34px;  border:1px solid #d0ccc7; color:#343535; font-size:16px; font-family:'Microsoft YaHei'; background:#fff;}
+
+/*宸茶缃繃鐧婚檰瀵嗙爜*/
+.content1 .center-bottom2{ /*width:448px;*/ height:auto; padding:50px 112px 0;text-align:center;}
+.content1 .registered-info2{ /*width:100%;*/ height:56px; display:inline-block; padding-bottom:42px;}
+.content1 .Successful-icon2{ width:57px; height:56px; background:url(//img.iblimg.com/respc-1/resources/v3.0/css/i/v3symbol.png) no-repeat; float:left;}
+.content1 .Successful-info2{ float:left; line-height:56px; font-size:30px; font-family:'Microsoft YaHei'; color:#ff7200; padding-left:30px; font-weight:bold;}
+.content1 .info022{ font-size:16px; font-family:'Microsoft YaHei'; color:#9a9691; padding-bottom:20px;}
+.content1 .info032{ font-size:16px; font-family:'Microsoft YaHei'; color:#704230; padding-bottom:10px;}
+.content1 .info042{ font-size:16px; font-family:'Microsoft YaHei'; color:#704230; padding-bottom:60px;}
+.content1 .info052{ font-size:16px; font-family:'Microsoft YaHei'; padding-bottom:90px;}
+.info052 span{ color:#fd0025;}
+.info052 a{ color:#0085d0; text-decoration:underline;}
+
+/*鐐瑰嚮鎸夐挳閮ㄥ垎*/
+.sub{ width:300px; margin-left:6px;}
+.prompt-text .strength-1 {
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 2px;
+    margin-top: 8px;
+    text-align: center;
+    width: 24px;
+}
+.prompt-correct .strength-1{
+	color: #ffffff;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 2px;
+    margin-top: 8px;
+    text-align: center;
+    width: 24px;}
+.prompt li span{ padding-right:6px;}
+
+
+
+.loginPerfect-data .loginPerfect-input input.placeholder{color:#999;}
+
+
+
+
+
+
+
+
+
